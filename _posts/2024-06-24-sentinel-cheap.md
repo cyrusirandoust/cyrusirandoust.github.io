@@ -1,11 +1,11 @@
 ---
-title: ""
+title: "This is why SMBs should activate Microsoft Sentinel"
 date: 2024-06-24 00:31:00 +0100
-categorie: [Microsoft, Cybersecurity] 
+categories: [Microsoft, Security] 
 tags: [sentinel,xdr,unifi,network,siem,cybersecurity]
 ---
 
-# This is why SMB should activate Microsoft Sentinel
+# Is Microsoft Sentinel only for the big ones?
 
 Recently, I was told that Microsoft Sentinel is built and aimed at massive companies, and that SMBs should look towards open-source solutions or leverage their on-premise vendors for good deals on SIEM. As this narrative seemed too common, I decided to challenge it by conducting a PoC (Proof of Concept) directly in production on an old client's tenant. I even promised to cover the costs myself if Sentinel expenses surpassed €5 monthly. This company, with fewer than 30 employees, utilizes Microsoft E5 licenses for everyone, so I think my fellow experts reading this article can already guess the outcome (you silly sausages).
 
@@ -45,6 +45,12 @@ The client has a Unifi network setup, which includes routers and switches. We es
     ```bash
    sudo service rsyslog restart
     ```
+
+    I used this YouTube video to help me:
+
+    [![Video Title](http://img.youtube.com/vi/V_iWTcAOQb4/0.jpg)](https://www.youtube.com/watch?v=V_iWTcAOQb4 "Microsoft Sentinel & Unifi")
+
+
 2. **Configuring Unifi Devices**:
    Configure the Unifi devices to send their Syslog data to the IP address of the Azure VM. This typically involves accessing the network settings on each device, where you can specify the Syslog server's IP address and the port (in this case, port 514).
 
