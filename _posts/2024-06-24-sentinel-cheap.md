@@ -48,7 +48,7 @@ The client has a Unifi network setup, which includes routers and switches. We es
 
     I used this YouTube video to help me:
 
-    [![Video Title](http://img.youtube.com/vi/V_iWTcAOQb4/0.jpg)](https://www.youtube.com/watch?v=V_iWTcAOQb4 "Microsoft Sentinel & Unifi")
+    [![Video Title](https://img.youtube.com/vi/V_iWTcAOQb4/0.jpg)](https://www.youtube.com/watch?v=V_iWTcAOQb4 "Microsoft Sentinel & Unifi")
 
 
 2. **Configuring Unifi Devices**:
