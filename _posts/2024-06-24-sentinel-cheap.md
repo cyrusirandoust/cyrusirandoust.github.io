@@ -1,5 +1,5 @@
 ---
-title: "This is why SMBs should activate Microsoft Sentinel - [PoC]"
+title: "This is why SMBs should activate Microsoft Sentinel [PoC]"
 date: 2024-06-24 00:31:00 +0100
 categories: [Microsoft, Security] 
 tags: [sentinel,xdr,unifi,network,siem,cybersecurity]
