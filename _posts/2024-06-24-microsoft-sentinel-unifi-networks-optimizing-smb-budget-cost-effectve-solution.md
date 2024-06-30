@@ -1,11 +1,11 @@
 ---
-title: "This is why SMBs should activate Microsoft Sentinel [PoC]"
+title: "Optimizing SMBs Cybersecurity on a Budget: How Microsoft Sentinel and Unifi Networks Deliver Cost-Effective Solutions [PoC]"
 date: 2024-06-24 00:31:00 +0100
 categories: [Microsoft, Security] 
-tags: [sentinel,xdr,unifi,network,siem,cybersecurity]
+tags: [microsoft, sentinel,xdr,unifi,network,siem,cybersecurity, finops]
 ---
 
-# Is Microsoft Sentinel only for the big ones?
+# This is why SMBs should activate Microsoft Sentinel
 
 Recently, I was told that Microsoft Sentinel is built and aimed at massive companies, and that SMBs should look towards open-source solutions or leverage their on-premise vendors for good deals on SIEM. As this narrative seemed too common, I decided to challenge it by conducting a PoC (Proof of Concept) directly in production on an old client's tenant. I even promised to cover the costs myself if Sentinel expenses surpassed €5 monthly. This company, with fewer than 30 employees, utilizes Microsoft E5 licenses for everyone, so I think my fellow experts reading this article can already guess the outcome (you silly sausages).
 
@@ -73,6 +73,8 @@ The client has a Unifi network setup, which includes routers and switches. We es
    - Microsoft Entra ID Protection
 
    This ensures that logs from these sources are ingested into Sentinel, allowing for comprehensive threat detection and response.
+
+   ![Desktop View]('/assets/img/Microsoft Sentinel UniFi data connector.png'){: .left .shadow}
 
 ## Cost Analysis
 
