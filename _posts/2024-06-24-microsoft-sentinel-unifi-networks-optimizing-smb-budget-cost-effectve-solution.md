@@ -74,7 +74,7 @@ The client has a Unifi network setup, which includes routers and switches. We es
 
    This ensures that logs from these sources are ingested into Sentinel, allowing for comprehensive threat detection and response.
 
-   ![Desktop View]('assets/img/Microsoft Sentinel UniFi data connector.png'){: .shadow}
+   ![Desktop View](/assets/img/Microsoft_Sentinel_UniFi_data_connector.png){: .shadow}
 
 ## Cost Analysis
 
