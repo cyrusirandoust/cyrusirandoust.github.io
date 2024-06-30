@@ -19,7 +19,7 @@ title: Cyrus Irandoust # the main title
 tagline: Play, Innovate, Secure. A Journey with Microsoft, IBM and Cybersecurity. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Anything about Microsoft, Cybersecurity, IBM or IT in general.
+  Microsoft Security, Microsoft Intune, Microsoft Defender XDR, Microsoft Sentinel, Microsoft Azure, Cybersecurity, IBM or IT in general.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -110,7 +110,7 @@ comments:
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: cyrusirandoust # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
