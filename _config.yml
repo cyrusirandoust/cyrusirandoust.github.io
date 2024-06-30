@@ -117,10 +117,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: cyrusirandoust/giscus # <gh-username>/<repo>
-    repo_id: R_kgDOMP59Bw
+    repo: cyrusirandoust/cyrusirandoust.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOMNMrVw
     category: Announcements
-    category_id: DIC_kwDOMP59B84CgelC
+    category_id: DIC_kwDOMNMrV84Cgels
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
