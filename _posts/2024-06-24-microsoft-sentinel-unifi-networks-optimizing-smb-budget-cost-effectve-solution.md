@@ -1,5 +1,5 @@
 ---
-title: "Optimizing SMBs Cybersecurity on a Budget: How Microsoft Sentinel and Unifi Networks Deliver Cost-Effective Solutions [PoC]"
+title: "How Microsoft Sentinel and Unifi Networks Deliver Cost-Effective Solutions for SMBs [PoC]"
 date: 2024-06-24 00:31:00 +0100
 categories: [Microsoft, Security] 
 tags: [microsoft, sentinel,xdr,unifi,network,siem,cybersecurity, finops]
@@ -26,7 +26,7 @@ The client has a Unifi network setup, which includes routers and switches. We es
 ## Implementation Steps
 
 1. **Setting Up the Syslog Server**: 
-   We deployed a lightweight Linux VM in Azure and installed `rsyslog`. This server was configured to receive logs from the Unifi devices on the network.
+   We deployed a lightweight Linux VM in Azure (Standard_B1s) and installed `rsyslog`. This server was configured to receive logs from the Unifi devices on the network.
 
     ```bash
    sudo apt-get update
@@ -46,9 +46,14 @@ The client has a Unifi network setup, which includes routers and switches. We es
    sudo service rsyslog restart
     ```
 
-    I used this YouTube video to help me:
+    I used this YouTube video from TeachJing to help me:
 
-    [![Video Title](https://img.youtube.com/vi/V_iWTcAOQb4/0.jpg)](https://www.youtube.com/watch?v=V_iWTcAOQb4 "Microsoft Sentinel & Unifi")
+    [![Video Title](https://img.youtube.com/vi/V_iWTcAOQb4/0.jpg){: .normal}](https://www.youtube.com/watch?v=V_iWTcAOQb4 "Microsoft Sentinel & Unifi")
+
+   We also managed the cost of such VM, knowing that outside business hours and the week-end it will be useless to have it running. 
+   For that, we choosed Start/Stop VMs v2: https://learn.microsoft.com/en-us/azure/azure-functions/start-stop-vms/overview 
+
+   Here's the Azure Marketplace link: https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/microsoftcorporation1620879115842.startstopv2
 
 
 2. **Configuring Unifi Devices**:
@@ -79,7 +84,7 @@ The client has a Unifi network setup, which includes routers and switches. We es
 ## Cost Analysis
 
 ### Data Ingestion and E5 Grants
-Microsoft 365 E5 licenses come with a data grant of up to 5 MB per user per day for certain data types, including Azure AD logs, Defender logs, and advanced hunting data. With 14 users, the total grant is 70 MB per day. Given our ingestion rate of around 60 MB per day, this covers all our ingestion needs under the grant, resulting in zero additional ingestion costs.
+Microsoft 365 E5 licenses come with a data grant of up to 5 MB per user per day for certain data types, including Azure AD logs, Defender logs, and advanced hunting data. With 30 users, the total grant is 150 MB per day. Given our ingestion rate of around 120 MB per day, this covers all our ingestion needs under the grant, resulting in zero additional Sentinel costs.
 
 ### Storage Costs
 The primary costs outside of Sentinel itself come from storage, particularly Standard SSD Managed Disks, and the use of a virtual network. However, these costs are manageable with careful planning and resource allocation.
@@ -88,5 +93,5 @@ The primary costs outside of Sentinel itself come from storage, particularly Sta
 
 By using Microsoft Sentinel in conjunction with Microsoft Defender XDR, we were able to set up a cost-effective and comprehensive security monitoring solution for a small business. Despite the initial perception that Sentinel is only for large enterprises, this PoC demonstrated that it can be effectively used by SMBs, especially when leveraging existing Microsoft 365 E5 licenses.
 
-In the end, the total cost for the client was less than €5 per month, and the only additional expense was for the Unifi log ingestion, which came in at less than €1 a month. This setup not only provides robust security monitoring but also ensures that costs remain extremely affordable. So, next time someone says Microsoft Sentinel isn't for SMBs, you can point them to this real-world example and say, "Challenge accepted!"
+In the end, the total cost for the client was less than €5 per month, and the only additional expense was for the Unifi log ingestion, which came in at less than €1 a month for Sentinel! This setup not only provides robust security monitoring but also ensures that costs remain extremely affordable. So, next time someone says Microsoft Sentinel isn't for SMBs, you can point them to this real-world example and say, "Challenge accepted!"
 
