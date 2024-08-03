@@ -27,7 +27,7 @@ The importance of Conditional Access in protecting a tenant cannot be overstated
 
 ## The Journey to the Solution
 
-Despite my extensive troubleshooting efforts, which included reviewing Conditional Access policies and checking device compliance, I couldn't pinpoint the issue. A comment from Haas Daniel, buried within what seemed like an AI-generated response from Microsoft, redirected my focus to Conditional Access, specifically to the possibility of legacy "Classic policies." https://learn.microsoft.com/en-sg/answers/questions/1664174/not-allowing-to-connect-sentinel-data-connector-wi?source=docs
+Despite my extensive troubleshooting efforts, which included reviewing Conditional Access policies and checking device compliance, I couldn't pinpoint the issue. A [comment from Haas Daniel, buried within what seemed like an AI-generated response from Microsoft](https://learn.microsoft.com/en-sg/answers/questions/1664174/not-allowing-to-connect-sentinel-data-connector-wi?source=docs), redirected my focus to Conditional Access, specifically to the possibility of legacy "Classic policies." 
 
 For those who have been working with Microsoft for a long time, encountering issues related to Classic policies is not uncommon. This customer tenant, created in early 2012 with Microsoft Intune activated since 2018, likely had such a policy in place. Traditional Conditional Access policies were not causing the issue; rather, it was an old Classic policy that was blocking access.
 
