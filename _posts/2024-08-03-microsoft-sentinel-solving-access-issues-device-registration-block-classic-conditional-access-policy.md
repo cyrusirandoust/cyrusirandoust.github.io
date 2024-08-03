@@ -29,7 +29,7 @@ The importance of Conditional Access in protecting a tenant cannot be overstated
 
 Despite my extensive troubleshooting efforts, which included reviewing Conditional Access policies and checking device compliance, I couldn't pinpoint the issue. A comment from Haas Daniel, buried within what seemed like an AI-generated response from Microsoft, redirected my focus to Conditional Access, specifically to the possibility of legacy "Classic policies." https://learn.microsoft.com/en-sg/answers/questions/1664174/not-allowing-to-connect-sentinel-data-connector-wi?source=docs
 
-For those who have been working with Microsoft for a long time, encountering issues related to Classic policies is not uncommon. My tenant, created in early 2012 with Intune activated since 2018, likely had such a policy in place. Traditional Conditional Access policies were not causing the issue; rather, it was an old Classic policy that was blocking access.
+For those who have been working with Microsoft for a long time, encountering issues related to Classic policies is not uncommon. This customer tenant, created in early 2012 with Microsoft Intune activated since 2018, likely had such a policy in place. Traditional Conditional Access policies were not causing the issue; rather, it was an old Classic policy that was blocking access.
 
 ### Troubleshooting with Conditional Access and Sign-In Logs
 
@@ -45,9 +45,29 @@ _The hidden legacy classic Condtional Access policies tab_
 
 As shown in the screenshot, the culprit was indeed a single legacy Classic policy called "Windows Defender ATP Device Policy." This policy, likely an automatically generated Enterprise app from a long time ago when Defender was known as ATP, was blocking access. While I suspect this policy was part of a security default configuration, I'm keen to learn more about its origins. If anyone has additional insights, please share.
 
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error4.png){: .shadow}
+_More detail about Windows Defender ATP - Device policy_
+
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error7.png){: .shadow}
+_The mysteriously created legacy Enterprise app Windows Defender ATP_
+
 ### Resolution
 
-After disabling (but not deleting) the policy to ensure it wouldn't cause further issues, I checked whether I could now modify the Data Connectors in Microsoft Sentinel. Success! The access issues were resolved, and I could proceed with the necessary modifications.
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error5.png){: .shadow}
+_Disabling that faulty legacy Classic Condtional Access policy_
+
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error6.png){: .shadow}
+_Always satisfying to see these green tick_
+
+After disabling (but not deleting) the policy to ensure it wouldn't cause further issues, I checked whether I could now modify the Data Connectors in Microsoft Sentinel. 
+
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error8.png){: .shadow}
+_My hopeful last attempt to modify the Microsoft Sentinel Data Connector, here the Microsoft XDR_
+
+![img-description](/assets/img/20240803/Microsoft_Sentinel_DataConnector_Sign-in_error9.png){: .shadow}
+_No more error message !_
+
+Success! The access issues were resolved, and I could proceed with the necessary modifications.
 
 ## Conclusion
 
