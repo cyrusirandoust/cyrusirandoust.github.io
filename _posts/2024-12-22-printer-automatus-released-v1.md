@@ -1,6 +1,6 @@
 ---
 title: "Printer Automatus: The Ultimate Printer Management Script"
-date: 2024-12-23 07:30:00 +0100
+date: 2024-12-22 23:10:00 +0100
 categories: [Microsoft, Intune] 
 tags: [microsoft,intune,automation]
 image:
