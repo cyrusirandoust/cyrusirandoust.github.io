@@ -18,7 +18,7 @@ I’ve been managing printers for years, and trust me, I’ve seen it all. From 
 
 This script is not perfect. In fact, it probably lacks all the error handling a perfectionist would demand. But you know what? It works. For 99% of the cases I’ve had to deal with, it has been my secret weapon. Initially, I thought about keeping it to myself, maybe even selling it as some kind of IT sorcery. But then I remembered: **we all suffer from the printer overlords**. Why not share it so others can finally reclaim their sanity?
 
-You can find the project and the tutorial on my GitHub: https://github.com/cyrusirandoust/Intunus/tree/main/printer-automatus 
+You can find the [project and the tutorial on my GitHub](https://github.com/cyrusirandoust/Intunus/tree/main/printer-automatus). 
 
 ## What This Script Does
 
