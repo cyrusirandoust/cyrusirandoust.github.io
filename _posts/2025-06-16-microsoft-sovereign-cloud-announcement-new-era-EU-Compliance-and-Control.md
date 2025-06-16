@@ -1,11 +1,11 @@
 ---
-title: "Microsoft’s Sovereign Cloud Announcement: A New Era for EU Compliance and Control"
+title: "Microsoft Sovereign Cloud Announcement: A New Era for EU Compliance and Control"
 date: 2025-06-16 22:30:00 +0100
 categories: [Microsoft, GRC] 
 tags: [microsoft,GRC]
 image:
   path: /assets/img/20250616/M365_Sovereign_Cloud.png
-  alt: Microsoft’s Sovereign Cloud Announcement: A New Era for EU Compliance and Control
+  alt: Microsoft Sovereign Cloud Announcement A New Era for EU Compliance and Control
 ---
 
 # Microsoft’s Sovereign Cloud Announcement: A New Era for EU Compliance and Control
