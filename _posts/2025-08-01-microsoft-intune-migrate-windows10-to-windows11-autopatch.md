@@ -4,7 +4,7 @@ date: 2025-08-01 11:30:00 +0100
 categories: [Microsoft, Intune] 
 tags: [microsoft,Intune]
 image:
-  path: /assets/img/20250801/migrate-to-windows-11.png
+  path: /assets/img/20250801/migrate-to-windows-11-large.png
   alt: Migrating Windows 10 to Windows 11 with Microsoft Intune
 ---
 
@@ -27,7 +27,7 @@ Without Intune or modern management, upgrading many PCs can be labor-intensive �
 
 If your organisation is already enrolled in **Windows Autopatch**, Intune will automatically generate **Autopatch groups**, update rings and feature‑update policies for you. This creates standardised deployment rings and staged rollout schedules out‑of‑the‑box. Rather than manually creating update rings or feature update profiles, you can leverage these Autopatch groups—and if they don’t yet exist—you simply create them under **Tenant administration → Windows Autopatch → Autopatch groups** in the Intune admin centre. Then configure the deployment rings and ensure **feature updates** are enabled in your Autopatch release. You can then either use the multi‑phase feature update release workflows that assign updates to Autopatch groups, or assign standard Intune feature update policies directly to those groups. This way you combine Autopatch’s built‑in scaffolding with targeted, controlled Windows 11 deployment.
 
-There is a super [Microsoft Tech community article from Akash Malhotra](https://techcommunity.microsoft.com/blog/windows-itpro-blog/upgrade-to-windows-11-with-windows-autopatch-groups/4434497) on that subject
+There is a super [Microsoft Tech community article from Akash Malhotra](https://techcommunity.microsoft.com/blog/windows-itpro-blog/upgrade-to-windows-11-with-windows-autopatch-groups/4434497) on that subject.
 
 ### Configure Telemetry & Feedback
 
