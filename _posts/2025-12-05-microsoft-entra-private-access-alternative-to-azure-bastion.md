@@ -4,7 +4,7 @@ date: 2025-12-05 11:00:00 +0100
 categories: [Microsoft, Entra] 
 tags: [microsoft,entra,private access,gsa, global secure access]
 image:
-  path: /assets/img/20251205/Entra_Private_Access_Secure_SSH_CyrusAcademy.jpg
+  path: /assets/img/20251205/Entra_Private_Access_Secure_SSH_CyrusAcademy.png
   alt: Secure SSH Access to Azure VMs Using Microsoft Entra Private Access: A Cost-Effective Alternative to Azure Bastion
 ---
 
