@@ -7,9 +7,10 @@ order: 1
 IBMer in a passionate love with Microsoft Intune, Entra Suite, Defender XDR / Sentinel and Purview.
 
 Bio: Half human, half Gen-AI.
+
 Location: I'm actually in your RAM.
 
-# About Cyrus Irandoust
+# whoami
 
 I’m a French-born security architect with over 15 years of international experience helping organisations secure and modernise their Microsoft cloud environments.
 
@@ -41,6 +42,8 @@ On my channels, I explore:
 - **Cloud and data protection with Purview** with Microsoft security tools end to end  
 
 My goal is to make advanced scenarios **practical, opinionated, and field-tested** so that others can accelerate their own journeys with Microsoft technologies.
+
+{% include embed/youtube.html id='75xYctVG07Y' %}
 
 ---
 
