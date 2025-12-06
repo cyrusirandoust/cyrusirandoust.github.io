@@ -17,6 +17,9 @@ With the December 4th announcement — **“Advancing Microsoft 365: New capabil
 
 In this post I’ll summarise what’s changing for **Microsoft 365 E3 and E5**, how **Intune Suite** is being integrated, how **Security Copilot** is now included in E5 at **0.4 Security Compute Units (SCU) per user/month**, and why I think **E5 will be very hard to ignore by July 2026**.
 
+But first, if you haven't already, follow our podcast, and watch this episode where we talk briefly about Security Copilot:
+{% include embed/youtube.html id='5YW2XDOUu9Q' %}
+
 ---
 
 ## TL;DR
