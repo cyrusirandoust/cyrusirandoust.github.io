@@ -1,7 +1,7 @@
 ---
 title: "How Microsoft Defender protects high-value assets in real-world attack scenarios"
 date: 2026-03-29 09:00:00 +0100
-categories: [Microsoft, Defender]
+categories: [Security, Defender]
 tags: [Defender,Defender-XDR,Security-Exposure-Management,Defender-for-Endpoint,Defender-for-Identity,High-Value-Assets,Sentinel]
 image:
   path: /assets/img/20260329/featured.jpg

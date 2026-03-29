@@ -1,8 +1,8 @@
 ---
 title: "A Nuclear weapons story: Making SharePoint Zero-Day-Tolerant with Microsoft Entra, Microsoft Sentinel, & Security Copilot"
 date: 2025-08-08 16:45:00 +0100
-categories: [Microsoft, Entra, Sentinel, Copilot] 
-tags: [microsoft,Entra,Sentinel,Copilot]
+categories: [Security, Entra-Defender-Sentinel-Copilot] 
+tags: [Entra,Defender,Sentinel,Copilot]
 image:
   path: /assets/img/20250808/A_Nuclear_weapons_story_SharePoint.png
   alt: MA Nuclear weapons story - Making SharePoint Zero-Day-Tolerant with Microsoft Entra, Microsoft Sentinel, & Security Copilot
