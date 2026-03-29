@@ -1,8 +1,8 @@
 ---
 title: "How Microsoft Defender protects high-value assets in real-world attack scenarios"
 date: 2026-03-29 09:00:00 +0000
-categories: ['Microsoft', 'Security']
-tags: ['Microsoft Defender', 'Defender XDR', 'Security Exposure Management', 'Defender for Endpoint', 'Defender for Identity', 'High Value Assets', 'Sentinel']
+categories: ['Microsoft', 'Defender']
+tags: ['Microsoft Defender','Defender XDR','Security Exposure Management','Defender for Endpoint','Defender for Identity','High Value Assets','Sentinel']
 image:
   path: /assets/img/defender-high-value-assets/featured.jpg
   alt: "A practical look at how Microsoft Defender and Security Exposure Management help protect domain controllers, web servers, and identity infrastructure that attackers actually care about."
