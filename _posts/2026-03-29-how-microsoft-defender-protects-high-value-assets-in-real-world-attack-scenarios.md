@@ -1,11 +1,11 @@
 ---
 title: "How Microsoft Defender protects high-value assets in real-world attack scenarios"
 date: 2026-03-29 09:00:00 +0000
-description: "A practical look at how Microsoft Defender and Security Exposure Management help protect domain controllers, web servers, and identity infrastructure that attackers actually care about."
 categories: ['Microsoft', 'Security']
 tags: ['Microsoft Defender', 'Defender XDR', 'Security Exposure Management', 'Defender for Endpoint', 'Defender for Identity', 'High Value Assets', 'Sentinel']
 image:
   path: /assets/img/defender-high-value-assets/featured.jpg
+  alt: "A practical look at how Microsoft Defender and Security Exposure Management help protect domain controllers, web servers, and identity infrastructure that attackers actually care about."
 ---
 
 Attackers do not care about the average device in your estate. They care about the machines and identities that let them own the rest of it. Domain controllers, identity sync servers, certificate infrastructure, admin workstations, internet-facing web servers tied to authentication, that’s where the real damage starts. So I think Microsoft’s push around protecting high-value assets with Microsoft Defender and Microsoft Security Exposure Management is less a shiny new feature and more an overdue correction.
