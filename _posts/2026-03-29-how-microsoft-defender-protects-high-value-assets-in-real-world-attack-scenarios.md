@@ -93,7 +93,7 @@ Once you’ve identified the critical devices, go into **Hunting > Advanced hunt
 
 A quick check to list your high-value devices:
 
-```sql
+```text
 DeviceInfo
 | where AssetValue == "High"
 | project DeviceId, DeviceName, OSPlatform, ExposureLevel, SensorHealthState, DeviceTags
@@ -102,7 +102,7 @@ DeviceInfo
 
 Then look for noisy or suspicious process activity on those systems:
 
-```sql
+```text
 DeviceProcessEvents
 | where Timestamp > ago(7d)
 | where FileName in~ ("powershell.exe","pwsh.exe","rundll32.exe","regsvr32.exe","psexec.exe")
