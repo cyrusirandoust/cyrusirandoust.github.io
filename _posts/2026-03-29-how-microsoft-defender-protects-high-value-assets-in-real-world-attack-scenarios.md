@@ -4,7 +4,7 @@ date: 2026-03-29 09:00:00 +0100
 categories: [Security, Defender]
 tags: [Defender,Defender-XDR,Security-Exposure-Management,Defender-for-Endpoint,Defender-for-Identity,High-Value-Assets,Sentinel]
 image:
-  path: /assets/img/20260329/featured.jpg
+  path: /assets/img/20260329/CyrusAcademy-High-Value-Asset-Defender.png
   alt: "A practical look at how Microsoft Defender and Security Exposure Management help protect domain controllers, web servers, and identity infrastructure that attackers actually care about."
 ---
 
