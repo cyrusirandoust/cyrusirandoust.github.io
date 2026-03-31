@@ -4,8 +4,8 @@ date: 2026-03-31 09:00:00 +0100
 categories: [Management, Intune]
 tags: [Intune,Defender-for-Endpoint,Defender-Vulnerability-Management,Endpoint-Security,Microsoft-Edge,Windows]
 image:
-  path: /assets/img/20260331/featured.jpg
-  alt: Intune and Defender: Useful, Messy, and Still Worth Using
+  path: /assets/img/20260331/endpoint-security-overview-2.png
+  alt: Intune and Defender - Useful, Messy, and Still Worth Using
 ---
 
 ## Why this exists
