@@ -1,10 +1,10 @@
 ---
 title: "AI security is still just security, and that's the point"
-date: 2026-04-02 09:00:00 +0100
+date: 2026-04-03 09:00:00 +0100
 categories: [Security, Defender]
 tags: [Defender,Defender-XDR,Microsoft-Entra,Microsoft-Purview,Microsoft-Sentinel,AI-Security,Copilot]
 image:
-  path: /assets/img/20260402/featured.jpg
+  path: /assets/img/20260402/Practical-CISO-advice.jpg
   alt: AI security is still just security, and that's the point
 ---
 
